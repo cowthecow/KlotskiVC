@@ -7,7 +7,8 @@ import com.laserinfinite.java.move.Move;
 import java.util.*;
 
 public class Algorithm {
-
+	
+	//This is some random edit that isn't really useful
 
     public static ArrayList<Move> solve(String position) {
         if (position.charAt(13) == '4' && position.charAt(18) == '4') return new ArrayList<>();
