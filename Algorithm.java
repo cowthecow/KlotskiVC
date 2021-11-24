@@ -8,13 +8,6 @@ import java.util.*;
 
 public class Algorithm {
 
-    //Algorithm needs
-    //Arraylist             -> Vector
-    //Classes and Objects   -> Classes and Objects
-    //Dynamic Strings       -> Dynamic Strings
-    //Queue                 -> Welp I'm going to create my own class for this...
-    //Inheritance           -> ???
-
 
     public static ArrayList<Move> solve(String position) {
         if (position.charAt(13) == '4' && position.charAt(18) == '4') return new ArrayList<>();
